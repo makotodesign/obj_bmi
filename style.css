@@ -1,0 +1,46 @@
+@charset "UTF-8";
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, button, p, blockquote {
+    margin: 0;
+    padding: 0;
+}
+div {
+box-sizing: border-box;
+}
+body {
+    font-family:"ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";
+}
+.container {
+padding-top: 40px;
+}
+
+.maintitle {
+text-align: center;
+}
+.box {
+    width: 300px;
+    background-color: #6fb7ff;
+    border-radius:20px;
+    margin:20px auto 50px auto;
+    padding:30px;
+    position: relative;
+    -webkit-box-shadow: inset 1px 6px 12px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    inset 1px 6px 12px 0px rgba(50, 50, 50, 0.75);
+    box-shadow:         inset 1px 6px 12px 0px rgba(50, 50, 50, 0.75);
+}
+
+.box form input{
+    margin-bottom: 20px;
+
+}
+
+input[name='height'],input[name='weight'] {
+    width: 60px;
+}
+
+input[type='submit'] {
+    position: absolute;
+    bottom: -60px;
+    left:0;
+     width: 300px;
+    height: 30px;    
+}
